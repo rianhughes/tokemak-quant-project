@@ -4,7 +4,7 @@
 From the root folder execute:
 poetry run python3.10 tokemak_quant_project/example.py
 
-Also, note: I added my own Alchemy API Key as a default in the main file, as the previous one was heavily rate limited.
+Also, note: I added my own Alchemy API Key as a default in the main file, as the previous one was heavily rate limited. While I normally use an .env file for these things, I added it here for the ease of checking this code.
 
 ## Outline of project
 
