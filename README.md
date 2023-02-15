@@ -1,3 +1,7 @@
+# Quant Project Solution Notes
+
+Notes outlining how the structure of this code, and the decision process is outlined in Write-Up.md
+
 # Tokemak Quant Project
 
 The goal of this project is analyze Uniswap V2 and SushiSwap AMM pools using on-chain data and recommend 10 pools that are expected to have the best risk-adjusted return for a relatively passive investment strategy.
