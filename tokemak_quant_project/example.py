@@ -8,10 +8,11 @@ import pandas as pd
 # https://github.com/ethers-io/ethers.js/blob/master/packages/providers/src.ts/alchemy-provider.ts#L16-L21
 # NOTE: likely to get rate limited
 default_provider_url = "https://eth-mainnet.g.alchemy.com/v2/_gg7wSSi0KMBsdKnGVfHDueq6xMB9EkC"
+rians_provider_url = "https://eth-mainnet.g.alchemy.com/v2/66w0kYdcdQtFVf4daINe9EGfSuSYdHqf"
 
 def main():
     load_dotenv()
-    w3 = Web3(Web3.HTTPProvider(os.getenv('PROVIDER_URL', default_provider_url)))
+    w3 = Web3(Web3.HTTPProvider(os.getenv('PROVIDER_URL', rians_provider_url)))
     print(w3.eth.block_number)
         
     # Part 1. Collect, decode and store data for each pool.
